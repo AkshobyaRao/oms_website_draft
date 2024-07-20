@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Outfit:wght@100..900&display=swap');
+body{
+  padding: 0;
+  padding-bottom: 5rem;
+  margin: 0;
+  height:max-content;
+  font-family: "Outfit";
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+}
+.stic{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.nav span{
+  font-size: 20px;
+}
+.nav ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.nav button{
+  background-color: #2236A1;
+  height: 3.5rem;
+  width: 8.5rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-size: 18px;
+  color:white;
+  font-family: "Outfit";
+}
+
+.header{
+  font-size: 70px;
+  margin-left: 30%;
+  color: #2236A1;
+  margin-top: 13rem;
+  background-color: #f7f7f7;
+
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f7f7f7;
+
+  padding: 3rem;
+  font-size: 20px;
+  gap: 10rem;
+  margin-top: 15rem;
+
+}
+
+.about .orange{
+  text-align:right;
+}
+
+.about p{
+  width: 37rem;
+}
+
+.about h1{
+  font-size: 50px;
+}
+
+.about .underline{
+  background-color: #2236A1;
+  height: 3.5rem;
+  width: 8.5rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-size: 18px;
+  color:white;
+  font-family: "Outfit";
+}
+
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.services u{
+  display: none;
+}
+
+.services ul{
+  font-size: 20px;
+  display: hidden;
+}
+
+.services p{
+  font-size: 35px;
+  font-style: bold;
+  font-weight: 700;
+}
+
+.services div{
+  width: 23rem;
+  text-align: left;
+  background-color: white;
+  padding: 1rem 3rem;
+  border-radius: 7px;
+}
+.services button{
+  background-color: #2236A1;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-size: 14px;
+  color:white;
+  font-family: "Outfit";
+}
+
+.contact{
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:0rem;
+  margin-top: 5rem;
+  background-color: #f7f7f7;
+
+}
+
+.contact .small{
+  width: 20rem;
+  height: 2rem;
+  outline: 2px solid #2236A1;
+  border: transparent;
+  border-radius: 5px;
+}
+
+.contact .extra{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact .small2{
+  width: 51.5rem;
+  height: 10rem;
+  outline: 2px solid #2236A1;
+  border: transparent;
+  border-radius: 5px;
+}
+
+.contact .main{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap:1rem;
+}
+.contact .button{
+  background-color: #2236A1;
+  height: 3.5rem;
+  width: 8.5rem;
+  border-radius: 10px;
+  font-size: 18px;
+  color:white;
+  margin-top: 2rem;
+  font-family: "Outfit";
+}
+
+button{
+  cursor: pointer;
+  border: transparent;
+  outline: transparent;
+}
+
+
+.big{
+  font-size: 30px;
+}
+
+input{
+  font-family: "Outfit";
+}
+
+input::content{
+  margin-left: 1rem;
+}
